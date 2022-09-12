@@ -1,3 +1,3 @@
 ### Діаграма прецедентів програмного продукту
 
-![USECASE](https://user-images.githubusercontent.com/99178092/189686613-730dcb9b-2888-4d91-8cb5-bb56c0ef5ca4.jpg)
+![USECASE](https://user-images.githubusercontent.com/99178092/189687202-61f40295-1d45-44f3-991e-403e330bd1b5.jpg)
