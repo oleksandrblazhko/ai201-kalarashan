@@ -1,4 +1,12 @@
 {
+  "arch_info": {
+    "name": "gorilla gym",
+    "rating": 4,
+    "location": {
+      "coordX": 1234,
+      "coordY": 3465,
+    }
+  },
   "consumer": {
     "name": "Kostya",
     "mail": "kkalarashan@gmail.com",
