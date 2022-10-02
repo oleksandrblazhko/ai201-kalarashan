@@ -1,0 +1,10 @@
+{
+  "consumer": {
+    "name": "Kostya",
+    "mail": "kkalarashan@gmail.com",
+    "location": {
+      "coordX": 121342,
+      "coordY": 354213,
+    }
+  }
+}
