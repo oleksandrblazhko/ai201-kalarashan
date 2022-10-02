@@ -1,0 +1,42 @@
+{
+  "description": "Опис предметної області ПП",
+  "type": "object",
+  "properties": {
+    "consumer": {
+      "description": "Опис споживача",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "Ім'я споживача",
+          "type": "string"
+        },
+        "mail": {
+          "description": "Пошта споживача",
+          "type": "string"
+        },
+         "location": {
+         "description": "місцеположення користувача",
+         "type": "object",
+         "properties": {
+           "coordX": {
+             "description": "Координата користувача по осі х",
+             "type": "int"
+           },
+           "coordY": {
+             "description": "Координата користувача по осі y",
+             "type": "int"
+           },
+      },
+        "required": [
+            "coordX",
+            "coordY"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "mail"
+      ]
+    }
+  }
+}
