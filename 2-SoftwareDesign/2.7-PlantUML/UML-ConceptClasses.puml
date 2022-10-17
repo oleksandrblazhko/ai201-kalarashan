@@ -3,12 +3,12 @@
 title Concept of Classes Diagram 
 
 Class Consumer
-Class Clear air API
-Class Google maps API
+Class Clear_air_API
+Class Google_maps_API
 Class Location
 
 Consumer"1" o-- "1"Location 
-Google maps API"1" o-- "1"Location
-Clear air API"1" o-- "1"Location
+Google_maps_API"1" o-- "1"Location
+Clear_air_API"1" o-- "1"Location
 
 @enduml
