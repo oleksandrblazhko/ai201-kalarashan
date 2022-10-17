@@ -6,7 +6,7 @@ skinparam packageStyle rect
 actor Consumer
 
 rectangle {
-  User --> (Share Location)
+  Consumer --> (Share Location)
   (Send Message) ..> (Share Location) : <<include>>
   (Get info about air) ..> (Share Location) : <<include>>
   (Get nearest gyms) ..> (Share Location) : <<include>>
