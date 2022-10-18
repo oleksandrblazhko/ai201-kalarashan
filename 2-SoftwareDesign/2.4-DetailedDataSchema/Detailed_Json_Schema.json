@@ -10,7 +10,8 @@
           "description": "назва закладу",
           "type": "string",
           "minLength": 1,
-  	  	  "maxLength": 64
+  	  	  "maxLength": 64,
+          "pattern": "^[a-z_]+$"
         },
         "rating": {
           "description": "рейтинг закладу",
@@ -55,7 +56,8 @@
           "description": "Ім'я споживача",
           "type": "string",
           "minLength": 1,
-  	  	  "maxLength": 64
+  	  	  "maxLength": 64,
+          "pattern": "^[a-z_]+$"
         },
         "mail": {
           "description": "Пошта споживача",
